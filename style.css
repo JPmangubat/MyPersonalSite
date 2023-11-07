@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f8f8ff;
+}
+nav{
+    box-shadow: 0px 1px 5px #f21818;
+}
+nav ul li{
+    font-size: 20px;
+    margin: 10px;
+    color: #f21818;
+}
+nav ul li:hover{
+    transition: 1s;
+    background-color: #f21818;
+}
+nav .dropdown-menu li :hover{
+    transition: 1s;
+    background-color: #f21818;
+
+}
+  
+.container h1{
+    font-size: 50px;
+    color: #1b1b1b;
+    text-align: center;
+}
+.col .btn{
+    background-color: #f21818;
+    color: #f8f8ff;
+}
+.col .btn:hover{
+    transition: 1s;
+    background-color: transparent;
+    border: solid 2px #f21818;
+    box-shadow: 5px 0px 50px #f21818;
+    color: #1b1b1b;
+    font-weight: bolder;
+}
+.col-7 h2,h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.col-7 p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.blog{
+    background-color: #f8f8ff;
+}
+.blog h1{
+    margin-top: 20px;
+    padding: 30px;
+    font-size: 20px;
+    color: #1b1b1b;
+
+}
+.blog h2{
+    display: flex;
+    margin-top: -65px;
+    padding: 30px;
+    font-size: 40px;
+    color: #1b1b1b;
+    font-weight: bold;
+}
+.blog p{
+    padding: 30px;
+    font-size: 16px;
+    color: #1b1b1b;
+}
+.blog span{
+    margin-left: 1rem;
+    color: #f21818;
+}
+.blog img{
+    margin-left: 150px;
+    padding: 30px;
+    width: 390px;
+    height: 550px;
+}
+.hero{
+    margin-left: 120px;
+}
+.hero .card{
+    padding: 10px 20px;
+    margin: 10px 10px;
+}
+.hero .card p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 794px) {
+    body {
+      font-size: 16px;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px 0;
+        flex-direction: column-reverse;
+    }
+    .row .col h1{
+        margin-top: -120px;
+        padding: 10px;
+        font-size: 50px;
+    }
+    .row a{
+        display: flex;
+    }
+    .row .col-7{
+        margin-top: -50px;
+        margin-left: -165px;
+        max-width: 430px;
+        max-height: 490px;
+    }
+    .col-7 h2,h3{
+        margin-left: 50px;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 20px;
+        color: white;
+    }
+    .col-7 p{
+        margin-left: 50px;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+    }
+    .blog .row{
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+        margin: 50px 0;
+    }
+    .blog .col h1{
+        font-size: 10px;
+        margin-top: -20px;
+        padding: 10px;
+    }
+    .blog .col h2{
+        font-size: 28px;
+        padding: 10px;
+        margin-top: -20px;
+    }
+    .blog .col p{
+        font-size: 10px;
+        padding: 10px;
+        font-style: oblique;
+        text-align: left;
+        float: left;
+        width: 220px;
+    }
+    .blog .col img{
+        margin-left: 190px;
+        margin-top: -535px;
+        width: 200px;
+        height: 260px;
+    }
+    .hero{
+        margin-left: 1px;
+        flex-direction: column-reverse;
+    }
+
+  }
+  
